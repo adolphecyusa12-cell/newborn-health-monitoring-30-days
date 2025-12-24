@@ -1,2 +1,2 @@
 ## Reports
-This folder contains the final project report (PDF).
+This folder contains the final project report Power point.
