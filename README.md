@@ -60,3 +60,35 @@ Example tables include:
 
 ## 📁 Repository Structure
 
+---
+newborn-health-monitoring-30-days/
+│
+├── data/        # Sample or anonymized datasets
+├── sql/         # Database schema and SQL queries
+├── analysis/    # R or Python scripts
+├── figures/     # Charts, dashboards, screenshots
+├── reports/     # Final project report (PDF)
+└── README.md    # Project documentation
+
+
+## 📌 Results & Insights
+This project demonstrates how structured data systems can:
+- Improve early detection of health risks
+- Support consistent monitoring practices
+- Enable scalable health data analysis in low-resource settings
+
+---
+
+## 🔒 Ethics & Privacy
+- All data is anonymized
+- No real patient identifiers are shared
+- Project is for **educational and analytical purposes only**
+
+---
+
+## 👤 Author
+**Adolphe Cyusa**  
+Graduate student & data analytics professional  
+Interests: Health analytics, development data systems, GIS-driven decision-making
+
+
