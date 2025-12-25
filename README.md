@@ -26,6 +26,17 @@ The dataset represents anonymized information collected during the **first 30 da
 ⚠️ No personally identifiable information (PII) is included.
 
 ---
+##Visualization
+## 📊 Exploratory Data Analysis
+
+### Gender Distribution of Newborns
+The dataset shows a slightly higher proportion of male newborns (54.5%) compared to females (45.5).  
+This aligns with expected biological birth patterns and confirms the dataset’s plausibility.
+
+![Gender Distribution of Newborns](figures/gender_distribution_newborns.png)
+*Figure generated in R using `dplyr` and `ggplot2` after aggregating newborn records by gender.*
+
+
 
 ## 🧱 Database Design
 he database schema follows a normalized relational design centered on the `babies` table, 
