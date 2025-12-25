@@ -28,18 +28,24 @@ The dataset represents anonymized information collected during the **first 30 da
 ---
 
 ## 🧱 Database Design
+he database schema follows a normalized relational design centered on the `babies` table, 
+with daily monitoring tables linked via foreign keys. This structure supports longitudinal 
+analysis of newborn health indicators over the first 30 days of life.
+
+![ER Diagram](figures/er_diagram_mysql.png)
 The database follows **relational design principles** with:
 - Primary and foreign keys
 - One-to-many relationships
 - Normalized tables to reduce redundancy
 
 Example tables include:
-- `newborns`
-- `daily_vitals`
-- `illness_records`
-- `immunizations`
+- `newborn babies informtaion`
+- `daily vitals information`
+- `illness records`
+- `immunizations record`
 
 ---
+
 
 ## 🧮 Methods & Tools
 **Technologies used:**
