@@ -66,7 +66,7 @@ The dashed red line marks the WHO Low Birth Weight (LBW) threshold (2.5 kg).
 A small number of observations fall below this threshold in both groups, highlighting
 the presence of clinically relevant LBW cases that warrant monitoring.
 
-![Birth Weight Distribution by Gender](figures/birth_weight_by_gender (2).png)
+![Birth Weight Distribution by Gender](figures/birth_weight_by_gender(2).png)
 
 
 ## 📊 Clinical Analytics Dashboard
