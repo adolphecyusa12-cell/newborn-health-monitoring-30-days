@@ -58,16 +58,6 @@ This aligns with expected biological birth patterns and confirms the dataset’s
 ### Birth Weight Distribution by Gender
 
 This boxplot compares birth weight distributions between male and female newborns.
-Male infants exhibit a slightly higher median birth weight, while variability overlaps substantially across genders.
-This suggests normal biological variation rather than structural imbalance.
-
-![Birth Weight Distribution by Gender](figures/birth_weight_by_gender.png)
-
-*Figure generated in R using `ggplot2` from cleaned SQL-derived birth records.*
-
-### Birth Weight Distribution by Gender
-
-This boxplot compares birth weight distributions between male and female newborns.
 Male infants show a slightly higher median birth weight than females, though the
 interquartile ranges overlap substantially, indicating normal biological variation
 rather than structural disparity.
