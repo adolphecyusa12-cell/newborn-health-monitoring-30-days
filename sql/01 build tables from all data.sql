@@ -1,6 +1,14 @@
--- Build normalized tables from a single wide table: all_data
+-- Build normalized tables from a single wide table: all_data (MySQL)
 
--- 1) Babies (one row per baby)
+DROP TABLE IF EXISTS vitals;
+DROP TABLE IF EXISTS size;
+DROP TABLE IF EXISTS jaundice;
+DROP TABLE IF EXISTS excretion;
+DROP TABLE IF EXISTS immunization;
+DROP TABLE IF EXISTS vaccination_type;
+DROP TABLE IF EXISTS babies;
+
+-- 1) babies (one row per baby)
 CREATE TABLE babies AS
 SELECT DISTINCT
   baby_id,
@@ -9,7 +17,7 @@ SELECT DISTINCT
   gestational_age_weeks
 FROM all_data;
 
--- 2) Excretion (many rows per baby by age_days)
+-- 2) excretion (many rows per baby per day)
 CREATE TABLE excretion AS
 SELECT
   baby_id,
@@ -18,7 +26,7 @@ SELECT
   stool_count
 FROM all_data;
 
--- 3) Jaundice (separate table; was mistakenly named excretion again)
+-- 3) jaundice (separate table; your original code overwrote excretion)
 CREATE TABLE jaundice AS
 SELECT
   baby_id,
@@ -26,7 +34,7 @@ SELECT
   jaundice_level_mg_dl
 FROM all_data;
 
--- 4) Immunization events/status
+-- 4) immunization
 CREATE TABLE immunization AS
 SELECT
   baby_id,
@@ -34,7 +42,7 @@ SELECT
   immunized
 FROM all_data;
 
--- 5) Vaccination type lookup (unique list)
+-- 5) vaccination_type lookup (unique list)
 CREATE TABLE vaccination_type AS
 SELECT DISTINCT
   vaccination_id,
@@ -42,7 +50,7 @@ SELECT DISTINCT
 FROM all_data
 WHERE vaccination_id IS NOT NULL;
 
--- 6) Size / growth measures
+-- 6) size / growth
 CREATE TABLE size AS
 SELECT
   baby_id,
@@ -53,7 +61,7 @@ SELECT
   weight_kg
 FROM all_data;
 
--- 7) Vitals
+-- 7) vitals
 CREATE TABLE vitals AS
 SELECT
   baby_id,
