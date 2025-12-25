@@ -173,7 +173,7 @@ The full project presentation is available as a PowerPoint report covering:
 
 ## 👤 Author
 **Adolphe Cyusa**  
-Graduate student & data analytics professional  
+Graduate student Global health Program with Data analytics concentration
 Interests: Health analytics, development data systems, GIS-driven decision-making
 
 
