@@ -53,6 +53,18 @@ saturation. Warning flags highlight potential clinical risks requiring attention
 
 ![Clinical Dashboard](figures/dashboard_clinical_overview_b005.png)
 
+## 🔁 Reproducible Analysis (R)
+
+The R workflow is organized in the `analysis/` folder and can be executed in order using:
+
+- `analysis/00_run_all.R` (runs connection → loading → processing → visualizations)
+
+Key scripts:
+- `analysis/01_db_connection.R`
+- `analysis/02_data_loading.R`
+- `analysis/03_data_processing.R`
+- `analysis/04_visualizations.R`
+
 
 ## 🧮 Methods & Tools
 **Technologies used:**
