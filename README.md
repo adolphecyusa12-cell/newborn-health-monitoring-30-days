@@ -68,6 +68,22 @@ the presence of clinically relevant LBW cases that warrant monitoring.
 
 ![Birth Weight Distribution by Gender](figures/birth_weight_by_gender.png)
 
+### Weight Trajectories Over the First 30 Days
+
+This figure displays individual newborn weight trajectories (gray lines) over the
+first 30 days of life, alongside the overall mean trajectory (red line).
+
+While individual growth patterns vary, the average trajectory shows a steady and
+consistent increase in weight across the neonatal period, indicating healthy
+postnatal growth at the population level.
+
+The spread of individual lines highlights natural biological variability, while the
+smooth upward mean trend suggests that most newborns experience sustained weight
+gain during early life.
+
+![Weight Trajectories](figures/weight_trajectories_overall_mean.png)
+
+
 
 
 ## 📊 Clinical Analytics Dashboard
