@@ -65,6 +65,20 @@ This suggests normal biological variation rather than structural imbalance.
 
 *Figure generated in R using `ggplot2` from cleaned SQL-derived birth records.*
 
+### Birth Weight Distribution by Gender
+
+This boxplot compares birth weight distributions between male and female newborns.
+Male infants show a slightly higher median birth weight than females, though the
+interquartile ranges overlap substantially, indicating normal biological variation
+rather than structural disparity.
+
+The dashed red line marks the WHO Low Birth Weight (LBW) threshold (2.5 kg).
+A small number of observations fall below this threshold in both groups, highlighting
+the presence of clinically relevant LBW cases that warrant monitoring.
+
+![Birth Weight Distribution by Gender](figures/birth_weight_by_gender.png)
+
+
 ## 📊 Clinical Analytics Dashboard
 
 The dashboard summarizes key newborn health indicators over the first 30 days of life,
