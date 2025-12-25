@@ -68,6 +68,12 @@ the presence of clinically relevant LBW cases that warrant monitoring.
 
 ![Birth Weight Distribution by Gender](figures/birth_weight_by_gender.png)
 
+**Clinical relevance:** Monitoring early weight trajectories is critical for
+identifying growth faltering, delayed recovery from low birth weight, and early
+nutritional risk. Longitudinal analysis provides more actionable insight than
+single-time-point measurements.
+
+
 ### Weight Trajectories Over the First 30 Days
 
 This figure displays individual newborn weight trajectories (gray lines) over the
