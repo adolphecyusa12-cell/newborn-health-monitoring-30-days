@@ -149,6 +149,19 @@ This project demonstrates how structured data systems can:
 - Support consistent monitoring practices
 - Enable scalable health data analysis in low-resource settings
 
+- ## 📊 Final Project Report
+
+The full project presentation is available as a PowerPoint report covering:
+- Problem statement and global health context
+- Database design (EER diagram)
+- SQL analytics framework
+- Clinical dashboards and insights
+- Policy and business implications
+
+📥 **Download the full report:**  
+[Final Project Presentation (PPTX)](reports/Final_Report_Neonatal_Health_Monitoring.pptx)
+
+
 ---
 
 ## 🔒 Ethics & Privacy
