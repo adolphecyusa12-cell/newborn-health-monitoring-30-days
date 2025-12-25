@@ -45,6 +45,13 @@ Example tables include:
 - `immunizations record`
 
 ---
+## 📊 Clinical Analytics Dashboard
+
+The dashboard summarizes key newborn health indicators over the first 30 days of life,
+including temperature, weight growth, vital signs, immunization timeline, and oxygen
+saturation. Warning flags highlight potential clinical risks requiring attention.
+
+![Clinical Dashboard](figures/dashboard_clinical_overview_b005.png)
 
 
 ## 🧮 Methods & Tools
