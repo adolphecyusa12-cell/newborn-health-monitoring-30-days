@@ -55,6 +55,16 @@ This aligns with expected biological birth patterns and confirms the dataset’s
 ![Gender Distribution of Newborns](figures/gender_distribution_newborns.png)
 *Figure generated in R using `dplyr` and `ggplot2` after aggregating newborn records by gender.*
 
+### Birth Weight Distribution by Gender
+
+This boxplot compares birth weight distributions between male and female newborns.
+Male infants exhibit a slightly higher median birth weight, while variability overlaps substantially across genders.
+This suggests normal biological variation rather than structural imbalance.
+
+![Birth Weight Distribution by Gender](figures/birth_weight_by_gender.png)
+
+*Figure generated in R using `ggplot2` from cleaned SQL-derived birth records.*
+
 ## 📊 Clinical Analytics Dashboard
 
 The dashboard summarizes key newborn health indicators over the first 30 days of life,
