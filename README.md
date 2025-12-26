@@ -100,6 +100,16 @@ saturation. Warning flags highlight potential clinical risks requiring attention
 
 ![Clinical Dashboard](figures/dashboard_clinical_overview_b005.png)
 
+## 🎥 Power BI Dashboard Demo (1-Minute Walkthrough)
+
+This short video demonstrates the interactive Power BI dashboard used
+to monitor newborn health indicators over the first 30 days, including
+baby-level filtering, vital signs, weight trends, oxygen saturation,
+and clinical indicators.
+
+[![Power BI Dashboard Demo](https://img.youtube.com/vi/tN6mqUgpqNk/0.jpg)](https://www.youtube.com/watch?v=tN6mqUgpqNk)
+
+
 ## 🔁 Reproducible Analysis (R)
 
 The R workflow is organized in the `analysis/` folder and can be executed in order using:
